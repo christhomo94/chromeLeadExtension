@@ -3,6 +3,7 @@ body {
   padding: 10px;
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
+  min-width: 400px;
 }
 
 input {
@@ -16,11 +17,13 @@ input {
 
 button {
   padding: 10px 25px;
-  border: none;
+  border: 1px solid #5f9341;
   background: #5f9341;
   text-transform: uppercase;
+  margin-bottom: 10px;
   color: white;
   font-weight: bold;
+  cursor: pointer;
 }
 
 ul {
@@ -44,4 +47,9 @@ a:hover {
   color: gray;
   text-decoration: underline;
   font-size: 16px;
+}
+
+#delete-btn {
+  background-color: white;
+  color: #5f9341;
 }
